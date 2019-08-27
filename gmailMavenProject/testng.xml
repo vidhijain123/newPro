@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<test name="ChromeTest">
+
+   <classes> 
+      <class name="automationFramework.Apache_POI_TC"/>
+      <class name="automationFramework.EmailnNext_TC"/>
+      <class name="automationFramework.EmailPassBlank_TC"/>
+      <class name="automationFramework.ForgotEmal_TC"/>
+      <class name="automationFramework.forgotPass"/>
+      <class name="automationFramework.changePassNew"/>
+      
+      <class name="automationFrameworkOne.EmailAno_TC"/>
+      <class name="automationFrameworkOne.Emailcc_TC"/>
+      <class name="automationFrameworkOne.emailMe"/>
+      <class name="automationFrameworkOne.EmailOpen_TC"/>
+      <class name="automationFrameworkOne.emailSend_TC"/>
+      
+       <class name="automationFrameworkSec.ComposeVisi_TC"/>
+       <class name="automationFrameworkSec.emailBody"/>
+       <class name="automationFrameworkSec.emailDraft_TC"/>
+       <class name="automationFrameworkSec.emailHigh_TC"/>
+       <class name="automationFrameworkSec.emailTo_TC"/>
+      
+      
+      <class name="automationFrameworkThird.emailLog_TC"/>
+      <class name="automationFrameworkSec.emailLogout_TC"/>
+      
+        
+      
+      
+    </classes>
+  </test>
+</suite> <!-- Suite -->
+
+
+ 
